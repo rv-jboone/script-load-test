@@ -1,7 +1,9 @@
-const el1 = document.getElementById('el1');
-const el2 = document.getElementById('el2');
+console.log('Script 1')
 
-console.log({
-  el1,
-  el2,
+const div1 = document.getElementById('div1');
+const div2 = document.getElementById('div2');
+
+console.log('Found elements', {
+  div1,
+  div2,
 })
